@@ -1,0 +1,14 @@
+Thoughts
+
+Method A
+If Application 1 and Application 2 can't interact directly, maybe create an Application 3, that can interface with 2 and provide updates every 3 minutes. 
+
+Method B
+If Application 2 and 1 have shared resources (e.g. database entries) we can implement a process bar that period checks the database for updates
+
+Method C
+
+Threading/Multiprocessing
+
+-> Can continously check if App 2 is done, there is likely multiple requests to backend/Java, python data analyzer, and
+
